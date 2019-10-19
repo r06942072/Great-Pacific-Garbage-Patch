@@ -1,13 +1,13 @@
-//Header
+//Countdown
 import React from 'react';
 
-function Header() {
+function Countdown() {
 	return (
-		<header>
-			<h1>Hello navigator :)</h1>
-			<p>Welcome to Garbage Patch in Pacific ocean!!!</p>
-		</header>
+		<div>
+			<h1>The time you left</h1>
+			<p>Countdown</p>
+		</div>
 	);
 }
 
-export default Header;
+export default Countdown;

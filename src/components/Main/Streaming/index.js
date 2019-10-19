@@ -1,5 +1,6 @@
 //Streaming
 import React from 'react';
+import Webcam from "react-webcam";
 
 function Streaming() {
 	return (
