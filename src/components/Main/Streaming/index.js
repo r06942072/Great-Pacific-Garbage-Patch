@@ -4,8 +4,8 @@ import Webcam from "react-webcam";
 
 function Streaming() {
 	const parameter = {
-		width: 1280,
-		height: 720,
+		width: 500,
+		height: 200,
 		facingMode: { exact: "environment" } //user
 	};
 	return (

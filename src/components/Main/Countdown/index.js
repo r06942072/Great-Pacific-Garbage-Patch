@@ -5,11 +5,11 @@ import ReactCountdownClock from 'react-countdown-clock';
 function Countdown() {
 	return (
 		<div>
-			<h1>The time you left:</h1>
-			<ReactCountdownClock seconds={60}
+			<p>The time you left:</p>
+			<ReactCountdownClock seconds={180}
 				color="#000"
 				alpha={0.9}
-				size={300}
+				size={100}
 			/>
 		</div>
 	);

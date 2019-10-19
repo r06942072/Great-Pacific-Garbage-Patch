@@ -1,4 +1,4 @@
-Education through gaming
+Welcome to our webgame: Oceanmate
 
 Install
 ---

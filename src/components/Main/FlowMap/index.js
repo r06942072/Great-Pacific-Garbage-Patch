@@ -5,8 +5,13 @@ import map from './flowMap.jpg';
 function FlowMap() {
 	return (
 		<div>
-			<h1>My current position:</h1>
-			<img src={map} alt="flowmap" />
+			<p>My current position:</p>
+			<img
+				src={map}
+				alt="flowmap"
+				height='300'
+				weight='300'
+			/>
 		</div>
 	);
 }

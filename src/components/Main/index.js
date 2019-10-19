@@ -10,12 +10,10 @@ import FlowMap from './FlowMap/index.js';
 function Main() {
 	return (
 		<div>
-			<h1>GoGo!! Try to navigate to the target point</h1>
 			<Arrow />
+			<FlowMap />
 			<Countdown />
 			<Streaming />
-			<FlowMap />
-			<p>---------------------------------------------------</p>
 			<Popup modal trigger={<button>Arrival</button>}>
 				Please switch the camera to face the conveyor belt!!!
 			</Popup>
