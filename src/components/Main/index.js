@@ -4,7 +4,7 @@ import Popup from 'reactjs-popup';
 import Countdown from './Countdown/index.js';
 import Arrow from './Arrow/index.js';
 import Streaming from './Streaming/index.js';
-import glass7 from './glass7.jpg';
+import image from './image.jpg';
 import FlowMap from './FlowMap/index.js';
 
 function Main() {
@@ -20,8 +20,8 @@ function Main() {
 				Please switch the camera to face the conveyor belt!!!
 			</Popup>
 			<Popup modal trigger={<button>GarbageInfo</button>}>
-				See~~Here is the garbage!!
-				<img src={glass7} alt="glass7" />	
+				According to the United Nations, at least 800 species worldwide are affected by marine debris, and as much as 80 percent of that litter is plastic.
+				<img src={image} alt="GarbageImage" />
 			</Popup>
 		</div>
 	);
