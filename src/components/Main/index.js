@@ -18,7 +18,7 @@ function Main() {
 				Please switch the camera to face the conveyor belt!!!
 			</Popup>
 			<Popup modal trigger={<button>GarbageInfo</button>}>
-				According to the United Nations, at least 800 species worldwide are affected by marine debris, and as much as 80 percent of that litter is plastic.
+				According to the United Nations, at least 800 species worldwide are affected by marine debris, and as much as 80 percent of that litter is plastic
 				<img src={image} alt="GarbageImage" />
 			</Popup>
 		</div>
